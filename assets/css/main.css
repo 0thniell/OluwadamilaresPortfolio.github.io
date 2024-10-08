@@ -19,12 +19,11 @@ canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
-	display: block;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	}
+	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -4613,7 +4612,6 @@ input, select, textarea {
 			border: 0;
 			color: #909498;
 			cursor: pointer;
-			display: block;
 			height: 3.25rem;
 			line-height: 3.25rem;
 			padding-right: 1.25rem;
